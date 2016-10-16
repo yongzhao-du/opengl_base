@@ -1,7 +1,7 @@
 #include <Windows.h>
 #include "opengl_gfx.h"
 
-//局部坐标（模型矩阵）世界坐标（视口矩阵）视口坐标（视口矩阵）屏幕坐标
+//局部坐标（模型矩阵）世界坐标（视口矩阵）视口坐标（投影矩阵）屏幕坐标
 //opengl将“模型矩阵”和“视口矩阵”合在一起（矩阵相乘）
 
 OpenGLGfx::OpenGLGfx()
